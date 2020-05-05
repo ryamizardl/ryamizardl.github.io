@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="UTF-8">
+  <title>Member</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Poppins:400,700'>
+
+      <link rel="stylesheet" href="style-profile.css">
+
+  
+</head>
+<body>
+  	<div class="navbar-ctn">
+        <ul class="nav" id="nav">
+          <li><a class="menu" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="member.html">Member</a></li>
+          <li><a href="album.html">Album</a></li>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="slider__warpper">
+          <div class="flex__container flex--piplup flex--active" data-slide="0">
+            <div class="flex__item flex__item--left">
+              <div class="flex__content">
+                <p class="text--sub">BLACKPINK</p>
+          <h1 class="text--big">Jisoo</h1>
+          <h2 class="text--med">지수</h2>
+          <p class="text--normal">김지수<br>
+            Birthday : January 3, 1995<br>
+            <a href="https://www.instagram.com/sooyaaa__/">@sooyaaa__</a></div></p>
+        <p class="text__background">JISOO</p>
+      </div>
+            <div class="flex__item flex__item--right"></div>
+            <img class="pokemon__img" src="img/jiso.jpg" />
+          </div>
+    <div class="flex__container flex--piplup animate--start" data-slide="1">
+      <div class="flex__item flex__item--left">
+        <div class="flex__content">
+            <p class="text--sub">BLACKPINK</p>
+            <h1 class="text--big">Jennie</h1>
+            <h2 class="text--med">제니</h2>
+            <p class="text--normal">김제니<br>
+              Birthday: January 16, 1996<br>
+              <a href="https://www.instagram.com/jennierubyjane/">@jennierubyjane</a></div></p>
+          <p class="text__background">Jennie</p>
+        </div>
+        <div class="flex__item flex__item--right"></div>
+        <img class="pokemon__img" src="img/jenie.jpg" />
+      </div>
+         
+  <div class="flex__container flex--piplup animate--start" data-slide="2">
+    <div class="flex__item flex__item--left">
+      
+      <div class="flex__content">
+          <p class="text--sub">BLACKPINK</p>
+          <h1 class="text--big">Rosé</h1>
+          <h2 class="text--med">로제</h2>
+          <p class="text--normal">박채영<br>
+            Birthday: February 11, 1997<br>
+            <a href="https://www.instagram.com/roses_are_rosie/">@roses_are_rosie</a></div></p>
+        <p class="text__background">Rosé</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="img/rosee.jpg" />
+    </div>
+  <div class="flex__container flex--piplup animate--start" data-slide="3">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+          <p class="text--sub">BLACKPINK</p>
+          <h1 class="text--big">Lisa</h1>
+          <h2 class="text--med">리사)</h2>
+          <p class="text--normal">ลลิสา มโนบาล<br>
+            Birthday: March 27, 1997<br>
+            <a href="https://www.instagram.com/lalalalisa_m/">@lalalalisa_m</a></p>
+        </div>
+        <p class="text__background">Lisa</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="img/lisaa.jpg" />
+    </div>
+</div>
+
+<div class="slider__navi">
+    <a href="#" class="slide-nav active" data-slide="0">zekrom</a>
+  <a href="#" class="slide-nav active" data-slide="1">pikachu</a>
+  <a href="#" class="slide-nav" data-slide="2">piplup</a>
+  <a href="#" class="slide-nav" data-slide="3">blaziken</a>
+
+</div>
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="index.js"></script>
+    <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+	<script type="text/javascript">
+		function menuToggle(){
+			var nav = document.getElementById("nav");
+			nav.classList.toggle('aktif')
+			//var toggle = document.getElementById("toggle");
+			//toggle.classList.toggle('active')
+
+
+    }     
+          
+  </script>
+
+</body>
+</html>
