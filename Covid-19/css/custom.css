@@ -1,0 +1,177 @@
+.btn-primary {
+    background-color:rgb(161,195,252);
+    border: 0;
+    padding:15px 40px;
+    font-size:16px;
+    font-weight:bold;
+}
+.btn-primary:hover {
+    background-color:rgb(113, 137, 179);
+    border: 0;
+}
+ h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+ p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+span {
+    color:rgb(161,195,252);
+
+}
+
+.navbar-nav{
+    float: right;
+}
+.navbar-brand {
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    float: left;
+
+}
+.navbar-brand a {
+    color:rgb(161,195,252);
+
+}
+.navbar a:hover{
+    font-weight: 700;
+}
+.herobwa {
+    padding-bottom: 130px;
+    text-align: justify;
+}
+.herobwa img {
+    max-width: 600px;
+}
+.herobwa h1 {
+    font-size:50px
+}
+.about img {
+    max-width: 600px;
+}
+.about p{
+    text-align: justify;
+}
+.prevention {
+    padding-bottom: 60px;
+}
+.prevention img {
+    max-width:270px;
+}
+.prevention h3 {
+    font-size:19px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.prevention h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.prevention p {
+    font-size:13px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: justify;
+}
+.prevention .row {
+    padding-bottom: 35px;
+}
+.tips {
+    text-align: center;
+    background-color:#F7931E;
+    color: white;
+    padding-top:75px;
+    padding-bottom: 40px;
+}
+.tips img {
+    max-width: 450px;
+}
+.tips h1 {
+    padding-bottom: 40px;
+}
+.tips h2 {
+    font-size:35px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+@media (max-width:1025px){
+    .herobwa img{
+        max-width:490px;
+    }
+    .about img {
+        max-width: 490px;
+    }
+}
+
+@media (max-width:991px){
+    .herobwa img {
+        max-width: 350px;
+    }
+    .about img {
+        max-width: 350px;
+    }
+    .about h1 {
+        font-size: 27px;
+    }
+    .about p{
+        font-size: 12px;
+    }
+    .prevention img {
+        max-width: 173px;
+    }
+    .prevention p{
+        font-size: 10px;
+    }
+    .tips img {
+        
+        max-width: 310px;
+    }
+}
+@media (max-width:736px){
+   .herobwa .row{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .herobwa h1 {
+        font-size: 30px;
+    }
+    .herobwa img {
+        max-width: 83vw;
+    }
+    .about .row {
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+    .about img {
+        max-width: 83vw;
+        
+    }
+    .prevention .row {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .prevention img {
+        max-width: 83vw;
+        padding-bottom: 20px;
+    }
+    .prevention {
+        width: 100%;
+    }
+    .tips .row {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .tips img {
+        max-width: 83vw;
+        margin: 0 auto ;
+    }
+    .tips h2 {
+        font-size:20px;
+    }
+   
+}
